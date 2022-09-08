@@ -41,13 +41,19 @@ input:focus, textarea:focus, select:focus{
 
 
 }
-input{
-    
-}
+
 .deletebtn, .editbtn{
     border:0;
     padding:5px;
 }
 .deletebtn:hover, .editbtn:hover{
     cursor:pointer;
+}
+.savebtn{
+    color:green;
+}
+
+.done{
+    color:gray;
+    text-decoration: line-through;
 }
