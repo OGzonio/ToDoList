@@ -1,0 +1,53 @@
+.elements{
+    display: flex;
+    justify-content: center;
+}
+
+.elements2{
+    display: flex;
+    justify-content: center;
+
+}
+.contentDiv{
+    display: flex;
+    justify-content: center;
+}
+
+
+.NoteTextDiv{
+    width:50%;
+    
+    
+    
+
+}
+
+.ButtonsDiv{
+    vertical-align: middle;
+    padding:10px;
+
+}
+
+.Notetext{
+    border:0;
+    border-bottom: 1px solid black;
+    margin:5px;
+    padding:5px;
+    width:100%;
+}
+input:focus, textarea:focus, select:focus{
+    
+    outline: none;
+
+
+}
+input{
+    
+}
+.deletebtn, .editbtn{
+    border:0;
+    padding:5px;
+}
+.deletebtn:hover, .editbtn:hover{
+    cursor:pointer;
+}
